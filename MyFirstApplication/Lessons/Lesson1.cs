@@ -75,7 +75,7 @@ internal class Lesson1
     }
 
     // ulong range 0 - 18,446,744,073,709,551,615
-    ulong myULong = 948372UL
+    ulong myULong = 948372UL;
 
         public void ULongMinMax()
     {

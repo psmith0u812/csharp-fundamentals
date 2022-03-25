@@ -1,4 +1,4 @@
-﻿using Lesson1;
+﻿using MyFirstApplication;
 
 // See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
@@ -17,7 +17,17 @@ inside that member.
 
 // Lesson Examples
 // HouseExample();
-Lesson1Example();
+// Lesson1Example();
+Exercise1();
+
+void Exercise1()
+{
+    Exercise1 myExercise1 = new Exercise1();
+    // myExercise1.Objective1();
+    // myExercise1.Objective2();
+    // myExercise1.Objective3();
+    myExercise1.Objective4();
+}
 
 void HouseExample()
 { 
@@ -38,7 +48,7 @@ void Lesson1Example()
 
 
 /*
- This local function is for my first exercise lab.
+ This local function is for the Overview exercise lab.
  */
 
 
@@ -49,7 +59,7 @@ void Lesson1Example()
     Console.WriteLine("This CSharp course is cool");
     Console.WriteLine("I am learning stuff every day.");
 }
-    MyLocalFunction();
+   // MyLocalFunction();
 
 
 
