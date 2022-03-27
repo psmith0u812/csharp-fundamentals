@@ -19,7 +19,8 @@ inside that member.
 // HouseExample();
 // Lesson1Example();
 // Exercise1();
-Lesson2Example();
+Exercise2();
+// Lesson2Example();
 
 // Lesson 2 Strings
 void Lesson2Example()
@@ -47,6 +48,18 @@ void Exercise1()
     myExercise1.Objective4();
 }
 
+void Exercise2()
+{
+    Exercise2 myExercise2 = new Exercise2();
+    myExercise2.Ex2Objective1();
+    myExercise2.Ex2Objective2();
+    myExercise2.ExObjective3();
+
+    Console.WriteLine(myExercise2.Ex2Objective4("Hrothgar", "Takis chips", "Dr Pepper", "10 Things I hate about You"));
+}
+    
+
+/*
 void HouseExample()
 { 
     House myHouse = new House();
@@ -62,7 +75,7 @@ void Lesson1Example()
     myLesson.ConvertFloatToInt();
     myLesson.LongFromInt();
 }
-
+*/
 
 
 /*
@@ -70,13 +83,14 @@ void Lesson1Example()
  */
 
 
-     void MyLocalFunction()
+/*     void MyLocalFunction()
 { 
     Console.WriteLine("This is my first sentence");
     Console.WriteLine("I am new to CSharp");
     Console.WriteLine("This CSharp course is cool");
     Console.WriteLine("I am learning stuff every day.");
 }
+*/
    // MyLocalFunction();
 
 
