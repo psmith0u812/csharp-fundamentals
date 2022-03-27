@@ -19,10 +19,32 @@ inside that member.
 // HouseExample();
 // Lesson1Example();
 // Exercise1();
-Exercise2();
+// Exercise2();
 // Lesson2Example();
+Lesson3Example(); 
 
-// Lesson 2 Strings
+
+// Lesson 3 Operators and Overflow Checking
+void Lesson3Example()
+{
+    Lesson3 myLesson3 = new Lesson3();
+    // myLesson3.BasicCheckedOperator(14);
+    // myLesson3.BasicCheckedExample2();
+    //  int alpha = 2147483647;
+    //  int total = alpha + 1;
+    //  Console.WriteLine(total);
+    // -2147483639
+    // myLesson3.BasicUncheckedExample();
+    // myLesson3.BasicMath();
+    // myLesson3.BasicModulus(783);
+    // myLesson3.BasicBooleanLogical(true, false);
+    // myLesson3.BasicCompoundExample(12, 35, 9);
+    // myLesson3.BasicRelationalExample("Tom", "Tim");
+    myLesson3.MyIncrDecrExample();
+}
+
+
+/* Lesson 2 Strings
 void Lesson2Example()
 {
     Lesson2 myLesson2 = new Lesson2();
@@ -35,10 +57,10 @@ void Lesson2Example()
     myLesson2.MyJoinedStrings("CSharp", "Rules");
     Console.WriteLine(myLesson2.MyInterpolationExample("pizza", 3));
     myLesson2.MyOtherInterpolation();
-}
+}*/
 
 
-
+/*
 void Exercise1()
 {
     Exercise1 myExercise1 = new Exercise1();
@@ -57,7 +79,7 @@ void Exercise2()
 
     Console.WriteLine(myExercise2.Ex2Objective4("Hrothgar", "Takis chips", "Dr Pepper", "10 Things I hate about You"));
 }
-    
+*/    
 
 /*
 void HouseExample()
