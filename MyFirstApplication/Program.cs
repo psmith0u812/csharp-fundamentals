@@ -21,7 +21,22 @@ inside that member.
 // Exercise1();
 // Exercise2();
 // Lesson2Example();
-Lesson3Example(); 
+// Lesson3Example(); 
+Exercise3();
+
+//Exercise3 Operators
+
+void Exercise3()
+{
+    Exercise3 myExercise3 = new Exercise3();
+     myExercise3.Ex3Objective1(245);
+    // myExercise3.Ex3Objective2();
+    // myExercise3.Ex3Objective3(-16_485, 18_542);
+    // myExercise3.Ex3Objective4(false, true);
+}
+
+
+
 
 
 // Lesson 3 Operators and Overflow Checking
@@ -40,7 +55,7 @@ void Lesson3Example()
     // myLesson3.BasicBooleanLogical(true, false);
     // myLesson3.BasicCompoundExample(12, 35, 9);
     // myLesson3.BasicRelationalExample("Tom", "Tim");
-    myLesson3.MyIncrDecrExample();
+    // myLesson3.MyIncrDecrExample();
 }
 
 
