@@ -22,7 +22,32 @@ inside that member.
 // Exercise2();
 // Lesson2Example();
 // Lesson3Example(); 
-Exercise3();
+// Exercise3();
+Lesson4Example();
+
+// Lesson 4 Control Flow
+void Lesson4Example()
+{
+    Lesson4 myLesson4 = new Lesson4();
+    // myLesson4.BasicIfStatement(11);
+    // myLesson4.BasicIfElseStatment(12);
+    // myLesson4.BasicIfElseChainStatment(5);
+    // myLesson4.BasicAndOrCondition(20, 20);
+    // Console.WriteLine(myLesson4.BasicTernaryExample(35));
+    // myLesson4.BasicSwitchStatement(3);
+    // myLesson4.BasicWhileStatement();
+    // myLesson4.BasicDoStatement();
+    // myLesson4.BasicForStatement();
+    // myLesson4.BasicForeachStatment();
+    myLesson4.BasicJumpStatement();
+}
+
+
+
+
+
+
+
 
 //Exercise3 Operators
 
