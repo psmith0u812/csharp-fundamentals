@@ -23,7 +23,8 @@ inside that member.
 // Lesson2Example();
 // Lesson3Example(); 
 // Exercise3();
-Lesson4Example();
+// Lesson4Example();
+Exercise4();
 
 // Lesson 4 Control Flow
 void Lesson4Example()
@@ -39,49 +40,54 @@ void Lesson4Example()
     // myLesson4.BasicDoStatement();
     // myLesson4.BasicForStatement();
     // myLesson4.BasicForeachStatment();
-    myLesson4.BasicJumpStatement();
+    // myLesson4.BasicJumpStatement();
+    
 }
 
-
-
-
-
-
-
-
-//Exercise3 Operators
-
-void Exercise3()
+void Exercise4()
 {
-    Exercise3 myExercise3 = new Exercise3();
-     myExercise3.Ex3Objective1(245);
-    // myExercise3.Ex3Objective2();
-    // myExercise3.Ex3Objective3(-16_485, 18_542);
-    // myExercise3.Ex3Objective4(false, true);
+    Exercise4 myExercise4 = new Exercise4();
+    // myExercise4.Ex4Objective1("narrow", "wide");
+    // myExercise4.Ex4Objective2('G');
+    myExercise4.Ex4Objective3();
+
 }
 
 
+    //Exercise3 Operators
+
+    void Exercise3()
+    {
+        Exercise3 myExercise3 = new Exercise3();
+        myExercise3.Ex3Objective1(245);
+        // myExercise3.Ex3Objective2();
+        // myExercise3.Ex3Objective3(-16_485, 18_542);
+        // myExercise3.Ex3Objective4(false, true);
+    }
 
 
 
-// Lesson 3 Operators and Overflow Checking
-void Lesson3Example()
-{
-    Lesson3 myLesson3 = new Lesson3();
-    // myLesson3.BasicCheckedOperator(14);
-    // myLesson3.BasicCheckedExample2();
-    //  int alpha = 2147483647;
-    //  int total = alpha + 1;
-    //  Console.WriteLine(total);
-    // -2147483639
-    // myLesson3.BasicUncheckedExample();
-    // myLesson3.BasicMath();
-    // myLesson3.BasicModulus(783);
-    // myLesson3.BasicBooleanLogical(true, false);
-    // myLesson3.BasicCompoundExample(12, 35, 9);
-    // myLesson3.BasicRelationalExample("Tom", "Tim");
-    // myLesson3.MyIncrDecrExample();
-}
+
+
+    // Lesson 3 Operators and Overflow Checking
+    void Lesson3Example()
+    {
+        Lesson3 myLesson3 = new Lesson3();
+        // myLesson3.BasicCheckedOperator(14);
+        // myLesson3.BasicCheckedExample2();
+        //  int alpha = 2147483647;
+        //  int total = alpha + 1;
+        //  Console.WriteLine(total);
+        // -2147483639
+        // myLesson3.BasicUncheckedExample();
+        // myLesson3.BasicMath();
+        // myLesson3.BasicModulus(783);
+        // myLesson3.BasicBooleanLogical(true, false);
+        // myLesson3.BasicCompoundExample(12, 35, 9);
+        // myLesson3.BasicRelationalExample("Tom", "Tim");
+        // myLesson3.MyIncrDecrExample();
+
+    }
 
 
 /* Lesson 2 Strings
