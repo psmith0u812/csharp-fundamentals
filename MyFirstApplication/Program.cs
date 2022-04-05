@@ -25,13 +25,32 @@ inside that member.
 // Exercise3();
 // Lesson4Example();
 // Exercise4();
-Lesson5Example();
+// Lesson5Example();
+Exercise5();
+
+
+void Exercise5()
+{
+    Exercise5 myExercise5 = new Exercise5();
+    //myExercise5.Ex5Objective1(23,4);
+    // myExercise5.Ex5Objective2('G');
+    // string result = myExercise5.Ex5Objective2('G');
+    // Console.WriteLine($" Your grade is {result}!");
+    myExercise5.Ex5Objective3(24);
+    
+
+
+
+}
+
+
+
 
 
 // Lesson 5 Expressions & Pattern Matching
-void Lesson5Example()
+// void Lesson5Example()
 {
-    Lesson5 myLesson5 = new Lesson5();
+    // Lesson5 myLesson5 = new Lesson5();
 
     // Call Method of myLesson5
     // myLesson5.IsOperatorExample(34);
@@ -40,7 +59,7 @@ void Lesson5Example()
     // handler("Hello CSharp");
 
     // Function Delagate
-    Func<int, int> add = myLesson5.Sum;
+    // Func<int, int> add = myLesson5.Sum;
     // Console.WriteLine($"Func example = {add(23)}");
 
     //Lambda Expression
@@ -48,24 +67,20 @@ void Lesson5Example()
     // myLesson5.LambdaGreeting();
 
     //Switch Expressions
-    string value1 = myLesson5.BasicSwitch("red");
+    // string value1 = myLesson5.BasicSwitch("red");
    // Console.WriteLine(value1);
-    string value2 = myLesson5.FavoriteColor("green");
+    // string value2 = myLesson5.FavoriteColor("green");
     // Console.Write(value2);
 
     // Relational Pattern
     // myLesson5.DrinkSize(33);
 
     //Logical Patterns
-    myLesson5.TemperatureGuide(48.6);
-    myLesson5.NumberChoice(3);
-
+    // myLesson5.TemperatureGuide(48.6);
+    // myLesson5.NumberChoice(3);
 
 
 }
-
-
-
 
 // Lesson 4 Control Flow
 void Lesson4Example()
