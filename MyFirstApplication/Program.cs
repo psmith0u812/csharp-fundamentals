@@ -27,10 +27,21 @@ inside that member.
 // Exercise4();
 // Lesson5Example();
 // Exercise5();
-Lesson6Examples();
+// Lesson6Examples();
+Exercise6();
 
 
-void Lesson6Examples()
+void Exercise6()
+{
+    Exercise6 myExercise6 = new Exercise6(12, "Brogues");
+    Exercise6 myExercise6Shoes = new Exercise6(myExercise6.ShoeSize ,myExercise6.ShoeType);
+    Exercise6.TryOn ShoeType = myExercise6.TryOnShoes;
+    Console.WriteLine($"Brand new pair of {myExercise6Shoes.ShoeType}...");   
+}
+
+/*
+
+// void Lesson6Examples()
 {
     // Default Constructor
     Lesson6 myLesson6 = new Lesson6();
@@ -68,23 +79,23 @@ void Lesson6Examples()
     theNewHat($"Trying a {myLessonHats.HatType} hat");
     hangTheHat($"Hanging up my {myLessonHats.HatType} hat");
     multiHat($"My {myLessonHats.HatType} hat");
-
-
-
-
 }
+*/
 
 
 
 
-void Exercise5()
+
+
+
+// void Exercise5()
 {
-    Exercise5 myExercise5 = new Exercise5();
+    // Exercise5 myExercise5 = new Exercise5();
     //myExercise5.Ex5Objective1(23,4);
     // myExercise5.Ex5Objective2('G');
     // string result = myExercise5.Ex5Objective2('G');
     // Console.WriteLine($" Your grade is {result}!");
-    myExercise5.Ex5Objective3(24);
+    // myExercise5.Ex5Objective3(24);
     
 
 
