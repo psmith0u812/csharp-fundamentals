@@ -7,6 +7,11 @@
 // single line comment
 
 
+// BottlesOfBeer bottles = new BottlesOfBeer();
+// bottles.LetsSing();
+
+
+
 /*
  Multi-line comment
 The below statement is a local function, local functions
@@ -28,9 +33,41 @@ inside that member.
 // Lesson5Example();
 // Exercise5();
 // Lesson6Examples();
-Exercise6();
+// Exercise6();
+Lesson7Examples();
 
 
+void Lesson7Examples()
+{
+    Location myLocation = new Location(34.5, 47.8 );
+    Console.WriteLine(myLocation.Latitude);
+    Console.WriteLine(myLocation);
+
+    // Readonly Struct
+    Student myStudent = new Student(10, "Roger");
+    Console.WriteLine(myStudent);
+    Console.WriteLine(myStudent.StudentName);
+
+    Person person = new Person("Nancy", "Drew");
+    Console.WriteLine(person);
+    Console.WriteLine(person.lastName);
+
+    // Struct Record
+    Resolution res = new Resolution(1920, 1080);
+    res.CalculateRes();
+    Console.WriteLine(res);
+}
+
+
+
+
+
+
+
+
+
+
+/*
 void Exercise6()
 {
     Exercise6 myExercise6 = new Exercise6(12, "Brogues");
@@ -38,7 +75,7 @@ void Exercise6()
     Exercise6.TryOn ShoeType = myExercise6.TryOnShoes;
     Console.WriteLine($"Brand new pair of {myExercise6Shoes.ShoeType}...");   
 }
-
+*/
 /*
 
 // void Lesson6Examples()
@@ -174,7 +211,7 @@ void Exercise4()
     void Exercise3()
     {
         Exercise3 myExercise3 = new Exercise3();
-        myExercise3.Ex3Objective1(245);
+        // myExercise3.Ex3Objective1(245);
         // myExercise3.Ex3Objective2();
         // myExercise3.Ex3Objective3(-16_485, 18_542);
         // myExercise3.Ex3Objective4(false, true);
