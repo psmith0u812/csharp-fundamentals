@@ -34,9 +34,22 @@ inside that member.
 // Exercise5();
 // Lesson6Examples();
 // Exercise6();
-Lesson7Examples();
+// Lesson7Examples();
+Boat();
 
 
+
+void Boat()
+{
+    Boat myBoat = new Boat("wood", "fiberglass", "mechanical");
+    myBoat.ShowBoat();
+    Console.WriteLine(myBoat);
+    Console.WriteLine($"This boat is {myBoat.Deck} deck, {myBoat.Hull} craft with a {myBoat.Helm} helm");
+}
+    
+
+
+/*
 void Lesson7Examples()
 {
     Location myLocation = new Location(34.5, 47.8 );
@@ -57,7 +70,7 @@ void Lesson7Examples()
     res.CalculateRes();
     Console.WriteLine(res);
 }
-
+*/
 
 
 
