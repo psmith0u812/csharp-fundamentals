@@ -6,7 +6,6 @@
 // The below statement calls a local function
 // single line comment
 
-
 // BottlesOfBeer bottles = new BottlesOfBeer();
 // bottles.LetsSing();
 
@@ -35,10 +34,35 @@ inside that member.
 // Lesson6Examples();
 // Exercise6();
 // Lesson7Examples();
-Boat();
+// Boat();
+Lesson8Example();
+
+
+void Lesson8Example()
+{
+    Lesson8 myLesson8 = new Lesson8(3);
+    // Calling Constant directly
+    Console.WriteLine(Lesson8.DaysPerMonth);
+
+    // Calculate temperature
+    Console.WriteLine(Lesson8Static.CelsiusToFahrenheit(45.6));
+
+    // Static Methods
+    Lesson8.DayCount = 10;
+    myLesson8.CalculateHours();
+    Lesson8.CalculateDayCount();
+    Console.WriteLine($"The calculation has been done {Lesson8.DayCount} times.");
+
+    // Static Lambda
+    myLesson8.CalculateHoursV2();
+
+}
 
 
 
+
+
+/*
 void Boat()
 {
     Boat myBoat = new Boat("wood", "fiberglass", "mechanical");
@@ -46,7 +70,7 @@ void Boat()
     Console.WriteLine(myBoat);
     Console.WriteLine($"This boat is {myBoat.Deck} deck, {myBoat.Hull} craft with a {myBoat.Helm} helm");
 }
-    
+*/    
 
 
 /*
@@ -137,7 +161,7 @@ void Exercise6()
 
 
 
-
+/*
 // void Exercise5()
 {
     // Exercise5 myExercise5 = new Exercise5();
@@ -146,16 +170,9 @@ void Exercise6()
     // string result = myExercise5.Ex5Objective2('G');
     // Console.WriteLine($" Your grade is {result}!");
     // myExercise5.Ex5Objective3(24);
-    
+    */
 
-
-
-}
-
-
-
-
-
+    /*
 // Lesson 5 Expressions & Pattern Matching
 // void Lesson5Example()
 {
@@ -187,10 +204,9 @@ void Exercise6()
     //Logical Patterns
     // myLesson5.TemperatureGuide(48.6);
     // myLesson5.NumberChoice(3);
-
-
 }
-
+    */
+    /*
 // Lesson 4 Control Flow
 void Lesson4Example()
 {
@@ -208,7 +224,8 @@ void Lesson4Example()
     // myLesson4.BasicJumpStatement();
     
 }
-
+    */
+    /*
 void Exercise4()
 {
     Exercise4 myExercise4 = new Exercise4();
@@ -217,10 +234,10 @@ void Exercise4()
     // myExercise4.Ex4Objective3();
 
 }
-
+    */
 
     //Exercise3 Operators
-
+    /*
     void Exercise3()
     {
         Exercise3 myExercise3 = new Exercise3();
@@ -229,11 +246,11 @@ void Exercise4()
         // myExercise3.Ex3Objective3(-16_485, 18_542);
         // myExercise3.Ex3Objective4(false, true);
     }
+    */
 
 
 
-
-
+    /*
     // Lesson 3 Operators and Overflow Checking
     void Lesson3Example()
     {
@@ -253,7 +270,7 @@ void Exercise4()
         // myLesson3.MyIncrDecrExample();
 
     }
-
+    */
 
 /* Lesson 2 Strings
 void Lesson2Example()
