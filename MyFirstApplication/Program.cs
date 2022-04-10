@@ -35,8 +35,18 @@ inside that member.
 // Exercise6();
 // Lesson7Examples();
 // Boat();
-Lesson8Example();
+// Lesson8Example();
+Exercise8();
 
+void Exercise8()
+{
+    // Constant objective1
+   Exercise8 myExercise8 = new Exercise8();
+   myExercise8.CalculateInches(3);
+
+    // Static Objective2
+    Console.WriteLine(MyFirstApplication.Exercise8.AreaOf(12, 14));
+}
 
 void Lesson8Example()
 {
