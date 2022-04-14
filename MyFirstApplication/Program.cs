@@ -37,9 +37,64 @@ inside that member.
 // Boat();
 // Lesson8Example();
 // Exercise8();
-Lesson9Example();
+// Lesson9Example();
+// Lesson10Example();
+HouseUpdated();
 
 
+void HouseUpdated()
+{
+    // Calling Default
+    House myHouse = new House();
+    Console.WriteLine(myHouse.RoofType);
+    myHouse.DoorOpenClose();
+
+    // Calling Constructor with 2 parameters
+    House mySecond = new House("straw", "bamboo");
+    Console.WriteLine(mySecond.WindowSize);
+    mySecond.DoorOpenClose();
+
+    // Calling Constructor with 4 parameters
+    House myThird = new House("dirt", "plastic", "green", 40);
+    Console.WriteLine(myThird.Foundation);
+    myThird.DoorOpenClose();
+
+}
+
+
+void Lesson10Example()
+{
+    Lesson10 myLesson10 = new Lesson10();
+
+    // Using this to call anoter constructor
+    Console.WriteLine(myLesson10.FirstName);
+
+    // Normal property
+    myLesson10.FirstName = "Paul";
+    Console.WriteLine(myLesson10.FirstName);
+
+    //Calling Auto Property
+    // myLesson10.LastName = "Smith"; // Only works in Lesson10 Constructor
+    Console.WriteLine(myLesson10.Id);
+    myLesson10.Id = 1500;
+    Console.WriteLine(myLesson10.Id); // 1500
+
+    // Expression Body Property
+    myLesson10.Address = "123 Main St.";
+    Console.WriteLine(myLesson10.Address);
+
+    // Second Constructor
+    Lesson10 myOther10 = new Lesson10("Ben", "Franklin", 64119);
+    Console.WriteLine(myOther10.Zipcode);
+
+
+}
+
+
+
+
+
+/*
 void Lesson9Example()
 {
     Lesson9 myLesson9 = new Lesson9();
@@ -49,10 +104,7 @@ void Lesson9Example()
     myLesson9.SampleInternal();
     myLesson9.SampleProtectedInternal();
 }
-
-
-
-
+*/
 
 
 /*
@@ -66,6 +118,7 @@ void Exercise8()
     Console.WriteLine(MyFirstApplication.Exercise8.AreaOf(12, 14));
 }
 */
+
 
 /*
 void Lesson8Example()
@@ -128,12 +181,6 @@ void Lesson7Examples()
 
 
 
-
-
-
-
-
-
 /*
 void Exercise6()
 {
@@ -143,8 +190,9 @@ void Exercise6()
     Console.WriteLine($"Brand new pair of {myExercise6Shoes.ShoeType}...");   
 }
 */
-/*
 
+
+/*
 // void Lesson6Examples()
 {
     // Default Constructor
@@ -189,8 +237,6 @@ void Exercise6()
 
 
 
-
-
 /*
 // void Exercise5()
 {
@@ -201,6 +247,7 @@ void Exercise6()
     // Console.WriteLine($" Your grade is {result}!");
     // myExercise5.Ex5Objective3(24);
     */
+
 
     /*
 // Lesson 5 Expressions & Pattern Matching
@@ -236,6 +283,8 @@ void Exercise6()
     // myLesson5.NumberChoice(3);
 }
     */
+
+
    /* 
  Lesson 4 Control Flow
 void Lesson4Example()
@@ -255,6 +304,8 @@ void Lesson4Example()
     
 }
     */
+
+
     /*
 void Exercise4()
 {
@@ -265,6 +316,7 @@ void Exercise4()
 
 }
     */
+
 
     //Exercise3 Operators
     /*
@@ -302,6 +354,7 @@ void Exercise4()
     }
     */
 
+
 /* Lesson 2 Strings
 void Lesson2Example()
 {
@@ -338,6 +391,7 @@ void Exercise2()
     Console.WriteLine(myExercise2.Ex2Objective4("Hrothgar", "Takis chips", "Dr Pepper", "10 Things I hate about You"));
 }
 */    
+
 
 /*
 void HouseExample()
