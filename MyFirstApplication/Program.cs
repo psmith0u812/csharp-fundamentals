@@ -27,7 +27,7 @@ inside that member.
 // Lesson2Example();
 // Lesson3Example(); 
 // Exercise3();
-// Lesson4Example();
+//Lesson4Example();
 // Exercise4();
 // Lesson5Example();
 // Exercise5();
@@ -36,8 +36,26 @@ inside that member.
 // Lesson7Examples();
 // Boat();
 // Lesson8Example();
-Exercise8();
+// Exercise8();
+Lesson9Example();
 
+
+void Lesson9Example()
+{
+    Lesson9 myLesson9 = new Lesson9();
+    Lesson9.Nested nested = new Lesson9.Nested(myLesson9);
+
+    //Access Modifiers
+    myLesson9.SampleInternal();
+    myLesson9.SampleProtectedInternal();
+}
+
+
+
+
+
+
+/*
 void Exercise8()
 {
     // Constant objective1
@@ -47,7 +65,9 @@ void Exercise8()
     // Static Objective2
     Console.WriteLine(MyFirstApplication.Exercise8.AreaOf(12, 14));
 }
+*/
 
+/*
 void Lesson8Example()
 {
     Lesson8 myLesson8 = new Lesson8(3);
@@ -67,7 +87,7 @@ void Lesson8Example()
     myLesson8.CalculateHoursV2();
 
 }
-
+*/
 
 
 
@@ -216,8 +236,8 @@ void Exercise6()
     // myLesson5.NumberChoice(3);
 }
     */
-    /*
-// Lesson 4 Control Flow
+   /* 
+ Lesson 4 Control Flow
 void Lesson4Example()
 {
     Lesson4 myLesson4 = new Lesson4();
@@ -227,7 +247,7 @@ void Lesson4Example()
     // myLesson4.BasicAndOrCondition(20, 20);
     // Console.WriteLine(myLesson4.BasicTernaryExample(35));
     // myLesson4.BasicSwitchStatement(3);
-    // myLesson4.BasicWhileStatement();
+     myLesson4.BasicWhileStatement();
     // myLesson4.BasicDoStatement();
     // myLesson4.BasicForStatement();
     // myLesson4.BasicForeachStatment();
