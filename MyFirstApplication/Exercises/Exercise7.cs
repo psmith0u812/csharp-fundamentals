@@ -43,10 +43,10 @@ Programming lesson. In your record body, include the boat method that you
 defined. This record can be in the same file as Exercise1. just put the code 
 under it as seen in the lecture. Test your record to ensure it is working correctly. 
  */
-internal record Boat(string Deck, string Hull, string Helm)
+internal record BoatRecord(string Deck, string Hull, string Helm)
     
 {
-    public string ShowBoat()
+    public string OldBoat()
     {
         return ($"{Deck}, {Hull}, {Helm}");
     }

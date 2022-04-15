@@ -39,7 +39,23 @@ inside that member.
 // Exercise8();
 // Lesson9Example();
 // Lesson10Example();
-HouseUpdated();
+// HouseUpdated();
+Horse();
+Boat();
+
+void Boat()
+{
+    Boat myBoat = new Boat();
+    myBoat.NewBoat();
+}
+
+
+void Horse()
+{
+    Horse myHorse = new Horse();
+    myHorse.ShowHorse();
+}
+
 
 
 void HouseUpdated()
