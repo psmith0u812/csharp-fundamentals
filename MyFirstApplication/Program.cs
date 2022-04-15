@@ -40,8 +40,22 @@ inside that member.
 // Lesson9Example();
 // Lesson10Example();
 // HouseUpdated();
-Horse();
-Boat();
+// Horse();
+// Boat();
+Lesson11Example();
+
+void Lesson11Example()
+{
+    Square square = new Square();
+    double total = square.CalculateInteriorAngle();
+    Console.WriteLine(total);
+
+    Triangle triangle = new Triangle();
+    double total2 = triangle.CalculateInteriorAngle();
+    Console.WriteLine(total2);
+}
+
+
 
 void Boat()
 {
