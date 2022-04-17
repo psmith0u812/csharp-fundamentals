@@ -42,7 +42,23 @@ inside that member.
 // HouseUpdated();
 // Horse();
 // Boat();
-Lesson11Example();
+// Lesson11Example();
+// Pony();
+Sloop();
+
+
+void Sloop()
+{
+    Sloop sloop =new Sloop();
+    sloop.ShowSloop();
+}
+
+void Pony()
+{
+    Pony pony = new Pony();
+    pony.ShowPony();
+}
+
 
 void Lesson11Example()
 {

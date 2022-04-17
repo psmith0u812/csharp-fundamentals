@@ -13,7 +13,7 @@ constructor. Also include in the class, your method for Horse.
 
 namespace MyFirstApplication;
 
-internal class Horse
+public class Horse
 { // properties
     public string Main { get; init; }
     public string Tail { get; init; }
@@ -34,13 +34,11 @@ internal class Horse
         :this(main, tail, "Red", "Good")
     { }
     
-    
     // 3rd Default constructor
     public Horse()
         :this("braided", "stright")
     { }
 
-    
    // Horse Method
    public void ShowHorse()
     {

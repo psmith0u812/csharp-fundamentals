@@ -15,7 +15,7 @@ attributes as Expression Body Definition Properties.
 
 namespace MyFirstApplication;
 
-internal class Boat
+public class Boat
 {
     public string _hull;
     public string _deck;
