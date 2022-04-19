@@ -21,7 +21,7 @@ public class Boat
     public string _deck;
     private string _helm;
     public string _motor;
-
+   
     // Attributes as Expression Body Definition Properties. 
     public string Hull
     {
@@ -51,6 +51,7 @@ public class Boat
         _deck = Deck;
         _helm = Helm;
         _motor = Motor;
+        
     }
 
     // 2nd Constructor
@@ -64,9 +65,20 @@ public class Boat
     { }
 
     // Boat Method
-    public void NewBoat()
+    public virtual void NewBoat()
     {
         Console.WriteLine($"My new {Hull} boat with an {Motor} motor!");
+    }
+    /*
+     Exercise 12 Polymorphism
+    Objective: In your boat class, add the virtual keyword to your method created in 
+    Lesson 10. Create a second version of the same method and add a parameter. 
+    Include a Console.WriteLine method in the new method that uses the parameter. 
+    This parameter needs to be based on one of your properties. 
+     */
+    public virtual void NewBoat(int TopSpeed)
+    {
+        Console.WriteLine($"My new {Hull} boat with an {Motor} motor, has a top speed of {TopSpeed}mph!");
     }
 
 } // End Class

@@ -52,5 +52,17 @@ class. Include 1 child attribute as expression body definition properties.
 
         }// End Method
 
+    /*
+     Exercise 12 Polymorphism
+    Objective: In your child class of Boat, using the override keyword create
+    a method that has the same name as the virtual method from Boat. Add a 
+    Console.WriteLine that provides a diffrent message from the Boat. 
+     */
+    public override void NewBoat()
+    {
+        base.NewBoat();
+        Console.WriteLine($"This {Hull} sloop may only seat {Capacity}.");
+    }
 
-    }// End SubClass
+
+}// End SubClass

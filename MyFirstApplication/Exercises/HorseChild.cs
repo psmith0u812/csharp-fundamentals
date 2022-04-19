@@ -54,9 +54,19 @@ public class Pony : Horse
       Console.WriteLine($"My {PonySpots(HasSpots)} {HorseColor} Pony, with {Main} main, and {Tail} tail.");
 
     }// End Method
-        
+    /*
+     Exercise 12 Polymorphism
+    Objective: In your child class of Horse, using the override keyword create
+    a method that has the same name as the virtual method from horse. 
+    Add a Console.Writeline that provides a different message from Horse.
+     */
+    public override void ShowHorse()
+    {
+        base.ShowHorse();
+        Console.WriteLine($"This {HorseColor} Pony, with {Main} main, and {Tail} tail is too small to be outfitted.");
+    }
 
-    } // End Subclass
+} // End Subclass
 
     
     

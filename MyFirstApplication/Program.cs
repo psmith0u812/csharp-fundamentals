@@ -44,9 +44,9 @@ inside that member.
 // Boat();
 // Lesson11Example();
 // Pony();
-// Sloop();
+Sloop();
 // Lesson12Example();
-CondoExample();
+// CondoExample();
 
 void CondoExample()
 {
@@ -73,12 +73,14 @@ void Sloop()
 {
     Sloop sloop =new Sloop();
     sloop.ShowSloop();
+    sloop.NewBoat();
 }
 
 void Pony()
 {
     Pony pony = new Pony();
     pony.ShowPony();
+    pony.ShowHorse();
 }
 
 
@@ -99,6 +101,9 @@ void Boat()
 {
     Boat myBoat = new Boat();
     myBoat.NewBoat();
+
+    Boat myBoat2 = new Boat();
+    myBoat2.NewBoat(65);
 }
 
 
@@ -106,6 +111,9 @@ void Horse()
 {
     Horse myHorse = new Horse();
     myHorse.ShowHorse();
+
+    Horse myHorse2 = new Horse();
+    myHorse.ShowHorse("western");
 }
 
 

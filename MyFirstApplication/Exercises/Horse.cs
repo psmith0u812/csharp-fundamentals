@@ -19,6 +19,8 @@ public class Horse
     public string Tail { get; init; }
     public string HorseColor { get; init; }
     private string Hooves { get; init; }
+   
+    
 
     // 1st constructor
      public Horse(string main, string tail, string color, string hooveCondition)
@@ -26,7 +28,8 @@ public class Horse
         Tail = tail;
         Main = main;
         HorseColor = color;
-        Hooves = hooveCondition;  
+        Hooves = hooveCondition;
+        
     }
     
     // 2nd constructor
@@ -40,10 +43,30 @@ public class Horse
     { }
 
    // Horse Method
-   public void ShowHorse()
+   /*
+     Exercise 12 Polymorphism
+    Objective: In your Horse class, add the virtual keyword to your method created in
+    Lesson 10. Create a second version of the same method and add a parameter. Include
+    a Console.WriteLine method in the new method that uses the parameter. This parameter
+    needs to be based on one of your properties. 
+     */
+
+   public virtual void ShowHorse()
     {
         Console.WriteLine($"My {HorseColor} Horse, with {Main} main, and {Tail} tail.");
     }
+
+   public virtual void ShowHorse(string Tack)
+        
+        
+    {
+        Console.WriteLine($"This {HorseColor} Horse, with {Main} main, and {Tail} tail is outfitted with a {Tack} setup.");
+    }
+
+
+    
+
+
 
 } // End Class
 
