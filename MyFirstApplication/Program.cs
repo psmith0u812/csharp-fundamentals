@@ -47,7 +47,17 @@ inside that member.
 // Sloop();
 // Lesson12Example();
 // CondoExample();
-Lesson13Example();
+// Lesson13Example();
+Exercise13Test();
+
+void Exercise13Test()
+{
+    Ducks myDucks = new Ducks(50);
+    Console.WriteLine($"This water bird beat its wings {myDucks.BeatsPerMinute()} times," +
+            $"for this flight!");
+    Console.WriteLine($" Distance traveled was {myDucks.Distance()} miles."); 
+}
+
 
 
 void Lesson13Example()
