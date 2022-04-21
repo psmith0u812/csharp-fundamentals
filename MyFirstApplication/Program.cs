@@ -49,15 +49,28 @@ inside that member.
 // CondoExample();
 // Lesson13Example();
 // Exercise13Test();
-Lesson14Example();
+//Lesson14Example();
+Exercise14();
+
+void Exercise14()
+{
+    Exercise14 myExercise14 = new Exercise14();
+    // myExercise14.FlavorsArray();
+    myExercise14.ChiefScoreArray();
+}
+
+
+
+
+
 
 void Lesson14Example()
 {
     Lesson14 myLesson14 = new Lesson14();
     // myLesson14.SingleIntArray();
     // myLesson14.SingleHouseArray();
-    // myLesson14.MultiIntArray();
-    // myLesson14.MultiStringArray();
+     // myLesson14.MultiIntArray();
+     // myLesson14.MultiStringArray();
     myLesson14.JaggedArraySample();
 }
 
