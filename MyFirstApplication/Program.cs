@@ -51,14 +51,27 @@ inside that member.
 // Exercise13Test();
 //Lesson14Example();
 //Exercise14();
-Lesson15Example();
+//Lesson15Example();
+Exercise15Results();
+
+void Exercise15Results()
+{
+    Exercise15 myExercise15 = new Exercise15();
+    
+    // string movie = myExercise15.MovieEnum(FavoriteMovies.Repo_The_Genetic_Opera);
+    // Console.WriteLine(movie);
+
+    myExercise15.TupleMovieReturn(FavoriteMovies.Mr_Nobody);
+
+
+}   
 
 void Lesson15Example()
 {
     Lesson15 myLesson15 = new Lesson15();
     // myLesson15.EnumExmple();
     string flavor = myLesson15.FavoriteIceCream(IceCreamFlavors.Chocolate);
-    // Console.WriteLine(flavor);
+    Console.WriteLine(flavor);
     //  myLesson15.TupleExample();
     (int val1, int val2, int val3) = myLesson15.TupleReturnExample(11, 35);
     Console.WriteLine($"Answers are {val1}, {val2}, {val3}");
