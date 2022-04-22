@@ -284,8 +284,8 @@ void Lesson10Example()
     Console.WriteLine(myLesson10.Address);
 
     // Second Constructor
-    Lesson10 myOther10 = new Lesson10("Ben", "Franklin", 64119);
-    Console.WriteLine(myOther10.Zipcode);
+   // Lesson10 myOther10 = new Lesson10("Ben", "Franklin", 64119);
+   // Console.WriteLine(myOther10.Zipcode);
 
 
 }

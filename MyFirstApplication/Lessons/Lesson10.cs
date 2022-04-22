@@ -8,6 +8,7 @@ public class Lesson10
     private string _firstName;
     private string _address;
     protected int zipcode;
+    public int id;
     public string FirstName
     {
         get { return _firstName; }
@@ -39,7 +40,7 @@ public class Lesson10
 
     // Default constructor
     public Lesson10()
-    :this("John", "Doe", 64082){ }
+    :this("John", "Doe", 64082){ }   // Exercise 18 Unit Tests edit
     
     // Constructor using this with variables
     public Lesson10(string firstName, string lastName, int zipcode)
@@ -47,6 +48,7 @@ public class Lesson10
         _firstName = firstName;
         LastName = lastName;
         this.zipcode = zipcode;
+       
     }
     
 
