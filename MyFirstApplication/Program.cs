@@ -53,7 +53,21 @@ inside that member.
 //Exercise14();
 //Lesson15Example();
 // Exercise15Results();
-Lesson16Example();
+// Lesson16Example();
+Exercise16();
+
+void Exercise16()
+{
+    Exercise16 myExercise16 = new Exercise16();
+    // myExercise16.HorseObjectList();
+
+    myExercise16.MovieDict();
+}
+
+
+
+
+
 
 void Lesson16Example()
 {
@@ -61,10 +75,6 @@ void Lesson16Example()
     // myLesson16.MyListExample();
     myLesson16.MyDictionaryExample();
 }
-
-
-
-
 
 
 void Exercise15Results()

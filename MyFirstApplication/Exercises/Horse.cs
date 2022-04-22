@@ -18,7 +18,7 @@ public class Horse
     public string Main { get; init; }
     public string Tail { get; init; }
     public string HorseColor { get; init; }
-    private string Hooves { get; init; }
+    public string Hooves { get; init; }
    
     
 
