@@ -55,7 +55,16 @@ inside that member.
 // Exercise15Results();
 // Lesson16Example();
 // Exercise16();
-Lesson17Example();
+// Lesson17Example();
+Exercise17();
+
+void Exercise17()
+{
+    Exercise17 myExercise17 = new Exercise17();
+   // myExercise17.DivisionExceptionCheck(4, 0);
+    Horse throwTheHorse = null;
+    myExercise17.HorseThrow(throwTheHorse);
+}
 
 void Lesson17Example()
 {
